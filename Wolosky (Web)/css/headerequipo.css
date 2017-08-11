@@ -1,0 +1,220 @@
+* { padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+body {
+		background-color:white;
+	}
+	
+.imagendeprueba {
+	padding-top: 70px;
+	width: 100%;
+	
+	display: none;
+}
+ 
+.menu_bar {
+	display:none;
+}
+
+/* Seccion de solamente logo */
+
+.woloskyspan { 	
+	font-size:400%;
+	color: white;
+	padding-left: 20px
+	padding-top:50px;
+	display: block;
+}
+
+
+.cajawolosky { 
+	margin-top: 5px;	
+	display: block; 
+}
+ 
+header {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	z-index: +10;
+}
+ .nav1 { 
+ 	display: none; }
+
+header .nav2 {
+	width:100%;
+	margin:  auto;
+	background:#020542;
+	z-index:1000px;
+	
+	letter-spacing: 1.5px;	
+	z-index: 10;
+
+}
+
+
+
+.centrarnav {
+	margin: 0 auto;
+	position: inherit;
+	text-align: center;
+	margin-top: -55px;
+}
+ 
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;	
+	position: relative;
+}	
+
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+header nav ul li:hover .children {
+	display:block;
+}
+ 
+
+
+ 
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid white;
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+ 
+@media screen and (max-width: 800px) {
+	
+	.imagendeprueba { 
+		margin-top: -70px; 
+		display: none;}
+
+	h1 { 
+	padding-top:0px; }
+
+	.icon-wolosky { 
+	 font-size: 60px;
+	 margin-top: -5px;
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		top:0;
+		background:#020542;
+		box-shadow: 0px  8px 10px 0px  black;
+		opacity: .9;
+		margin-bottom: 
+
+	}
+ 
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 5px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar  .icon-menu {
+		float: right;
+		font-size: 40px;
+	}
+
+	.nav2 { 
+		display: none; }
+ 
+	header .nav1 {
+		display: block;
+		width: 100%;
+		position: fixed;
+		right:100%;
+		margin: 0;
+		background-color: #E8E9EA;
+		color: #848484;
+		overflow: scroll;
+		z-index: 2;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:3px solid rgba(255,255,255,.5)white;
+	}
+ 
+	header nav ul li a {
+		display: block;
+		color: black;
+		border-bottom: 2px dotted ;
+	}
+ 
+	header nav ul li:hover .children {
+		display: none;
+	}
+
+	header nav ul li a:hover { 
+		color: white;
+		background-color: black
+		}
+ 
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+ 
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	header nav ul li .caret {
+		float: right;
+	}
+	.woloskyspan { 
+		display: none; 
+	}
+
+	.simbolomenu { 
+		display: block;
+		margin-top: 10px;
+
+	}
+		
+}
+
+
+

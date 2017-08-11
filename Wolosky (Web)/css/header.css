@@ -1,0 +1,202 @@
+* { padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+body {
+		background-color:white;
+	}
+	
+.imagendeprueba {
+	padding-top: 70px;
+	width: 100%;
+	box-shadow: 0px  8px 10px 0px  black;
+	display: none;
+}
+ 
+.menu_bar {
+	display:none;
+}
+
+/* Seccion de solamente logo */
+
+.woloskyspan { 	
+	font-size:400%;
+	color: white;
+	padding-left: 20px
+	padding-top:50px;
+	display: block;
+}
+
+
+.cajawolosky { 
+	margin-top: 5px;	
+	display: block; 
+}
+ 
+header {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	z-index: 1000;
+}
+ .nav1 { 
+ 	display: none; }
+
+header .nav2 {
+	width:100%;
+	margin:  auto;
+	position: fixed;
+	background:#020542;
+	z-index:1000;
+	box-shadow: 0px  8px 10px 0px  black;
+	letter-spacing: 1.5px;	
+	opacity: .9;
+}
+
+
+
+.centrarnav {
+	margin: 0 auto;
+	position: inherit;
+	text-align: center;
+	margin-top: -55px;
+}
+ 
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;	
+	position: relative;
+}	
+ 
+.nav2 ul li a:hover {
+	
+}
+ 
+.nav2 ul li a{
+	
+ }
+
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+ 
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:73px;
+	}
+	.imagendeprueba { 
+		margin-top: -70px; 
+		display: none;}
+
+	h1 { 
+	padding-top:0px; }
+
+	.icon-wolosky { 
+	 font-size: 60px;
+	 margin-top: -5px;
+	 	z-index: +21000;
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#020542;
+		box-shadow: 0px  8px 10px 0px  black;
+		opacity: .95;
+			z-index: +21000;
+		
+
+	}
+
+	
+	 .bt-menu {
+		display: block;
+		padding: 5px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.icon-menu {
+		position: absolute;
+		background: #001E28;
+		font-size: 50px;
+		right: 0;
+		margin-top: -5px;
+		border-left: 2px solid;
+		padding-top: 12px;
+		padding-bottom: 10px;
+			z-index: +21000;
+	}
+.icon-menu:hover {
+	background: black;
+}
+	.nav2 { 
+		display: none; }
+ 
+	header .nav1 {
+		display: block;
+		width: 50%;
+		min-width: 300px;
+		position: fixed;
+		right:100%;
+		margin: 0;
+		z-index: +21000;
+		
+		background: #001E28;	
+		color: #848484;
+		border-image: 2pc solid;
+	
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:3px solid rgba(255,255,255,.5)white;
+
+	}
+ 
+	header nav ul li a {
+		display: block;
+		color: white;
+		border-bottom: 2px solid ;
+		height: calc(100% - 72px);
+	}
+ 
+	header nav ul li:hover .children {
+		display: none;
+	}
+
+	header nav ul li a:hover { 
+		color: white;
+		background-color: black
+		}
+ 
+	
+	.woloskyspan { 
+		display: none; 
+	}
+
+	
+		
+}
+
+
+

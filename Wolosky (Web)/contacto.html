@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style type="text/css"> * { margin: 0; padding:0; }</style>
+    <title>Wolosky Mail</title>
+
+   
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/hover.css" rel="stylesheet" media="all">   
+
+<!--GOOGLE FONTS -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,500,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    
+<header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu " id="iconomenu"></span><span class="icon-wolosky"></span></a>
+        </div>
+
+        <nav>
+                
+            <ul class="nav1">
+                <li><span class="icon-wolosky woloskyspan"></span></li>
+                <li><a href="index.html" >        <span color="green"> <span class="icon-home3"></span>Inicio</a></li> </span>
+                <li><a href="quienes.html"><span class="icon-suitcase"></span>Quienes Somos</a></li>
+                <li><a href="logros.html"><span class="icon-rocket"></span>Noticias</a></li>
+                <li><a href="equipo.html"><span class="icon-earth"></span>Equipo</a></li>
+                <li><a href="contacto.html"><span class="icon-mail"></span>Contacto</a></li>
+            </ul></nav>
+            <nav class="nav2">  
+            <ul>
+
+            <div class="cajawolosky">
+                <li><span class="icon-wolosky woloskyspan"></span></li>
+            </div>
+
+            
+                <div class="centrarnav">
+                <li><a href="index.html" class="hvr-grow-shadow"><span class="icon-home3"></span>Inicio</a></li>
+                <li><a href="quienes.html" class="hvr-grow-shadow">Quienes Somos</a></li>
+                <li><a href="logros.html" class="hvr-grow-shadow">Noticias</a></li>
+                <li><a href="equipo.html" class="hvr-grow-shadow">Equipo</a></li>
+                <li><a href="contacto.html" class="hvr-grow-shadow">Contacto</a></li>
+                </div>
+            </ul>
+
+            </nav>
+</header>
+<div class="content">   
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    logofooter  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    Lorem              </p>
+    <div class="formulario">
+   <br> 
+
+<form action="php/contanto.php" method="post">
+
+    <input type="" name="Nombre" placeholder="Nombre"> <br>
+    <input type="mail" name="Mail" placeholder="abc@hotmail.com"> <br>
+    <input type="tel" name="Tel" pattern="[0-9]{10}" placeholder="Telefono"> <br>
+    <input type="number" name="Edad" placeholder="Edad"> <br>
+    <input list="genero" name="Sexo" placeholder="Sexo"> <br>
+        <datalist id="genero">
+            <option value="Masculino"></option>
+            <option value="Femenino"></option>
+        </datalist>
+        <textarea name="Mensaje"></textarea><br>
+
+        <input type="submit" name="Enviar"
+        value="Enviar Mensaje"> <br>
+            
+</form>
+
+
+    <?php
+$to = "jfcr@live.com";
+$subject = "My subject";
+$txt = "Hello world!";
+$headers = "From: webmaster@example.com" . "\r\n" .
+"CC: tesharod@hotmail.com";
+
+mail($to,$subject,$txt,$headers);
+
+echo "Hello world!"; 
+?>
+
+     
+
+</div>
+
+</div>
+<footer>
+<!-- Redes Sociales -->
+<div class="redes">
+        <h2>Siguenos en:</h2>
+    <div class="redesimagenes">
+        <a href="https://www.facebook.com/Gimnasia-Artistica-WOLOSKY-101212723267687/?fref=ts" ><img src="images/footer/facebook.png" class="hvr-grow-shadow"></a>
+
+        <a href="https://twitter.com/rebewolosky"><img src="images/footer/twitter.png" class="hvr-grow-shadow"></a>
+        <a href="https://www.instagram.com/woloskygimnasia/"><img src="images/footer/instagram.png" class="hvr-grow-shadow"></a>
+        <a href="https://www.youtube.com/user/WoloskyGym"><img src="images/footer/youtube.png"  class="hvr-grow-shadow"></a>
+    </div>
+</div>
+
+<img src="images/footer/logofooter.png" class="logofooter"> 
+
+        
+        <h5>Gimnasia Wolosky - Derechos Reservados ©2016</h5>
+
+    </footer> 
+
+</body>
+</html>
+
+

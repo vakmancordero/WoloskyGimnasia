@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="492.0" prefWidth="302.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wolosky.admin.dialog.DetailsDialogController">
+   <children>
+      <Label alignment="CENTER" layoutY="79.0" text="Nombre:" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="130.0" text="E-mail:" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTF" alignment="CENTER" editable="false" layoutX="70.0" layoutY="100.0" prefHeight="30.0" prefWidth="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <TextField fx:id="emailTF" alignment="CENTER" editable="false" layoutX="30.0" layoutY="151.0" prefHeight="30.0" prefWidth="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <TextField fx:id="phoneTF" alignment="CENTER" editable="false" layoutX="30.0" layoutY="202.0" prefHeight="30.0" prefWidth="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Label alignment="CENTER" layoutY="181.0" text="Teléfono:" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="233.0" text="Sexo:" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="genderTF" alignment="CENTER" editable="false" layoutX="30.0" layoutY="254.0" prefHeight="30.0" prefWidth="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <TextField fx:id="yearsTF" alignment="CENTER" editable="false" layoutX="30.0" layoutY="305.0" prefHeight="30.0" prefWidth="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Label alignment="CENTER" layoutY="284.0" text="Edad:" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="112.0" layoutY="38.0" text="Detalles" textFill="#1e2546" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font name="Freestyle Script" size="52.0" />
+         </font>
+      </Label>
+      <Button layoutX="30.0" layoutY="406.0" mnemonicParsing="false" onAction="#close" prefHeight="36.0" prefWidth="242.0" text="Ok!" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font name="Freestyle Script" size="30.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutY="339.0" text="Tipo:" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="typeTF" alignment="CENTER" editable="false" layoutX="30.0" layoutY="360.0" prefHeight="30.0" prefWidth="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+   </children>
+</AnchorPane>

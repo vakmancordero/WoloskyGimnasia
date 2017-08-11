@@ -1,0 +1,54 @@
+ footer { 
+  	background-image: url("footerbackground.jpg");
+  	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	color: white;
+	background-size: 37%;
+	background-height:20%;
+  font-weight: light;
+    
+}
+
+.redes { 
+	text-align: center; 
+	}
+.redesimagenes  { 
+	margin: 0 auto;
+}
+
+.redesimagenes img  { 
+	width: 5%;
+	padding: 10px;
+}
+.logofooter { 
+	display: block;
+	margin: 0 auto;
+	width: 15%; 
+	padding-top:  -10px
+}
+ footer h5 { 
+    text-align: center; 
+    font-family: 'times';
+  }
+
+
+ @media screen and (max-width: 800px)  { 
+  	.redesimagenes img { 
+  		width: 10%;	
+  		padding: 4px; 
+  	} 
+
+  	.logofooter { 
+  		width: 30%; }
+
+  	 footer { 
+  	background-image: url("footerbackground.jpg");
+  	background-height: 30%;
+  	background-size: 72%;
+    
+}
+
+  }
+ 
+
+ 

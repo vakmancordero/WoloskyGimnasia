@@ -1,0 +1,6 @@
+[10-Jul-2016 21:46:39 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';' in /home/woloskyg/public_html/mail.php on line 6
+[10-Jul-2016 21:47:16 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/woloskyg/public_html/mail.php on line 8
+[10-Jul-2016 21:47:17 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/woloskyg/public_html/mail.php on line 8
+[10-Jul-2016 22:09:33 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/woloskyg/public_html/mail.php on line 10
+[10-Jul-2016 22:10:12 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/woloskyg/public_html/mail.php on line 10
+[10-Jul-2016 22:10:14 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/woloskyg/public_html/mail.php on line 10

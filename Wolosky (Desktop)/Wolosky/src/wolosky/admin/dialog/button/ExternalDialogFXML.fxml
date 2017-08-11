@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="151.0" prefWidth="244.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="wolosky.admin.dialog.button.ExternalDialogController">
+   <children>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="-2.0" text="Información" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Freestyle Script" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailTF" layoutX="41.0" layoutY="70.0" prefHeight="25.0" prefWidth="177.0" promptText="E-mail" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Label layoutX="41.0" layoutY="49.0" text="E-mail:" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="99.0" layoutY="111.0" mnemonicParsing="false" onAction="#edit" text="Editar" />
+      <Button layoutX="155.0" layoutY="111.0" mnemonicParsing="false" onAction="#delete" text="Eliminar" />
+   </children>
+</AnchorPane>

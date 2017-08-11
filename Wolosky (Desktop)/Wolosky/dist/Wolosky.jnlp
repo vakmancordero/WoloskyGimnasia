@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Wolosky.jnlp">
+  <information>
+    <title>Wolosky</title>
+    <vendor>Unknown</vendor>
+    <description>Wolosky</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Wolosky.jar" size="45799" download="eager" />
+    <jar href="lib\commons-net-3.5.jar" size="303658" download="eager" />
+    <jar href="lib\dsn.jar" size="19171" download="eager" />
+    <jar href="lib\gimap.jar" size="14769" download="eager" />
+    <jar href="lib\mail.jar" size="521000" download="eager" />
+    <jar href="lib\mailapi.jar" size="279893" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\pop3.jar" size="44405" download="eager" />
+    <jar href="lib\smtp.jar" size="52869" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="wolosky.Wolosky"  name="Wolosky" />
+  <update check="background"/>
+</jnlp>

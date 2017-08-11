@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wolosky.admin.dialog.clients.ShowClientsController">
+   <children>
+      <TableView fx:id="clientsTV" layoutX="33.0" layoutY="50.0" prefHeight="408.0" prefWidth="700.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0">
+        <columns>
+            <TableColumn prefWidth="172.0" text="Nombre">
+                <cellValueFactory>
+                    <PropertyValueFactory property="nombre" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="170.0" text="E-mail">
+                <cellValueFactory>
+                    <PropertyValueFactory property="email" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="101.0" text="Telefono">
+                <cellValueFactory>
+                    <PropertyValueFactory property="telefono" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Sexo">
+                <cellValueFactory>
+                    <PropertyValueFactory property="sexo" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="47.0" text="Edad">
+                <cellValueFactory>
+                    <PropertyValueFactory property="edad" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="134.0" text="Tipo">
+                <cellValueFactory>
+                    <PropertyValueFactory property="tipo" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#remove" text="Remover" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </TableView>
+      <Label alignment="CENTER" layoutX="356.0" layoutY="21.0" text="Tabla de usuarios añadidos" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Freestyle Script" size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="668.0" layoutY="461.0" mnemonicParsing="false" onAction="#remove" prefHeight="25.0" prefWidth="150.0" text="Remover" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="20.0" />
+   </children>
+</AnchorPane>

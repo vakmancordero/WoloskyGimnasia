@@ -1,0 +1,164 @@
+content { 
+	font-family: 'roboto' 
+}
+
+.mision { 
+	background-color: #E2E2E2;
+	overflow: hidden;
+}
+
+.portada { 
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	min-width: 500px;
+	 
+	overflow: hidden;
+	padding-top:  60px;
+	
+}
+
+.division { 
+	display: block;
+	margin: 0 auto;
+	width: 15%;
+}
+h1 { 
+	text-align: center;
+	font-size: 550%;
+	font-weight: 100;
+	color: #111111;
+}
+
+.bloqueizquierdo  { 
+	font-size: 180%;
+	display:inline-block;
+	width: 50%;
+	margin: auto auto;
+	padding-right: 6%;
+	padding-left: 6%;
+	text-align: center;
+	color: #111111;
+	
+	 }
+
+.misionimg {
+	display: inline-block;
+	float: right; 
+	width: 50%;
+	 
+}
+
+.misionimagen { 
+	display: block;
+	width: 32%;
+	margin: 0 auto;
+	padding-bottom: 40px
+}
+
+.vision { 
+	width: 100%; 
+	overflow: hidden;
+}
+
+.divisioncuadro { 
+	display: inline-block;
+	float: right; 
+	width: 50%;
+	 }
+
+.divisioncuadro img {
+	display: block;
+	margin: 0 auto;
+	width: 65%;
+	padding-bottom: 30px;
+}
+
+.valores ul { 
+	display: block;
+	margin: 0 auto; 
+	text-align: center;
+	list-style: none;
+	font-size: 35px;
+	color:white;
+	font-weight: 100;
+	padding-bottom: 30px;
+}
+
+.valores ul li img { 
+	width: 30px;
+	margin-right: 30px;  
+}
+
+.listavalores { 
+	
+	margin-left: auto;
+  	margin-right: auto;
+  	display: table;
+  	
+	
+}
+.valores { 
+	width: 100%;
+	background-color: black; 
+}
+.valores h1 { 
+	color: white; }
+
+@media screen and (max-width: 800px) { 
+	.portada { 
+	margin-top: -10px;
+	padding-top:  0px;
+	
+}
+
+	.bloqueizquierdo { 
+	
+		width: 100%;
+		padding-bottom: 30px;
+		}
+
+	.misionimg {
+		width: 100%;
+	 
+}
+
+	.misionimagen { 
+		display: block;
+		width: 62%;
+		margin: 0 auto;
+		padding-bottom: 40px
+	}
+
+	.divisioncuadro { 
+		width: 100%; }
+	.divisioncuadro img {
+		display: block;
+		margin: 0 auto;
+		width: 85%;
+		padding-bottom: 30px;
+		 }
+	.division { 
+		width: 20%; }
+}
+
+@media screen and (max-width: 400px) { 
+
+	.portada { 
+		left: 100px; 
+	 	overflow: hidden;
+	 	margin-left: -20%; }
+
+		.bloqueizquierdo { 
+			font-size: 125%; }
+
+		.title { 
+		 	font-size: 250%; }
+
+		 .listavalores li { 
+		 	font-size: 50%;
+		 	 }
+
+		 .listavalores img{ 
+		 	width: 2%; }
+ }

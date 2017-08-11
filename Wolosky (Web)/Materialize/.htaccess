@@ -1,0 +1,2 @@
+AuthName "Mi directorio"
+AuthUserFile "/home/woloskyg/.htpasswds/public_html/MaterializeForm/passwd"

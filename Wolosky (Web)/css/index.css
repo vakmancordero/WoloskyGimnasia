@@ -1,0 +1,256 @@
+#portada { 
+	width: 100%; 
+	min-width: 1150px;
+	overflow: hidden;
+z-index: -1 ;}
+
+.hportada { 
+text-align: center;
+position:absolute; 
+color: white;
+
+left: 0;
+width: 100%;
+margin-top: -50%;
+font-family: 'Roboto', sans-serif;
+font-weight: lighter;
+}	
+
+.hportada h1 { 
+	font-size: 550%;
+	width: 75%;
+	display: block;
+	margin: 0 auto;	 
+	font-family: 'Dancing Script', cursive;
+}
+
+a {
+
+	text-decoration: none;
+	color:white;
+}
+.hportada h3 { 
+	font-size: 
+	250%;	 
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	padding-top: 50px;
+		font-weight: lighter;
+}
+.hportada p { 
+	font-size: 150%;
+	display:inline-block;
+	background: #91071B;
+
+	padding: 15px;
+	border: 9px;
+	border-radius: 0px 24px 0px 24px;
+-moz-border-radius: 0px 24px 0px 24px;
+-webkit-border-radius: 0px 24px 0px 24px;
+border: 0px solid #000000;
+margin-top: 80px;
+
+ -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  z-index: -1;
+}
+
+.hportada p:hover {
+		border-radius: 0px 24px 0px 24px;
+-moz-border-radius: 0px 24px 0px 24px;
+-webkit-border-radius: 0px 24px 0px 24px;
+border: 0px solid ;
+background:#680C15;
+
+}
+
+#general { 
+	display: block;
+	width: 	100%;
+	background-color: white;
+	
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+
+ }
+
+#general div { 
+	width: 33.3%; 
+	margin: 0 auto;
+	display:block;
+}
+#general img { 
+width: 90%;
+display: block;
+margin: 0 auto;
+ }
+
+#general h3 {
+	width: 90%;
+	margin: 0 auto;
+	display:block;
+	font-size: 195%;
+}
+#general p {
+	width: 90%;
+	margin: 0 auto;
+	display:block;
+	padding-left: 15px;
+	border-left: 2px solid #680C15;
+}
+#general a {
+ 	color: black;
+ 	
+ }
+
+#a { 
+	float: right;
+ }
+
+#b { 
+
+	float: right;
+	width: 33.4%;
+}
+
+#c { 
+	float: right;
+}
+
+#espaciado {
+	opacity: 0;
+	width: 5%; 
+}
+
+
+
+
+
+
+.youtube { 
+
+	margin: 0 auto; }
+
+.youtubecon { 
+	padding-bottom: 25px;	
+}
+
+center { 
+	
+	
+}
+
+.mapa { 
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	z-index: -1;
+	 }
+
+@media screen and (max-width: 880px)  { 
+
+	.hportada { 
+		margin-top: -650px;
+	}	
+
+.hportada h1 { 
+	font-size: 450%;
+	width: 95%;
+	
+}
+
+
+.hportada h3 { 
+	font-size: 200%;
+	width: 90%;
+	
+}
+.hportada p { 
+	
+
+}
+
+
+#general div { 
+	width: 100%; 
+	margin: 0 auto;
+	display:block;
+	background: #DBDBDB;
+	padding-bottom: 25px;
+
+}
+#general img { 
+width: 90%;
+display: block;
+margin: 0 auto;
+ }
+
+
+#a { 
+padding-top: 25px; }
+ 	
+ 	.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+ 	.mapa { 
+ 		height: 500px; 
+ 	}
+ }
+ @media screen and (max-width: 480px)	 { 
+ 	
+ 	 .mapa { 
+ 		height: 200px; 
+ 	}
+
+	#general div { 
+		width: 100%; 
+		margin: 0 auto;
+		display:block;
+		background: #DBDBDB;
+		padding-bottom: 25px;
+	}
+
+	#general img { 
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+ 	}
+
+	#a { 
+		padding-top: 25px; 
+	}
+
+	.hportada { 
+
+	}	
+
+	.hportada h1 { 
+		font-size: 300%;
+	}
+
+	a {
+	
+	}
+	
+	.hportada h3 { 
+		font-size: 200%;
+	
+	}
+	.hportada p { 
+	
+	}
